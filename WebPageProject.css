@@ -1,0 +1,115 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("./images/wiproBackgroundImg.jpg");
+    margin: 50px 0px;
+    background-color: rgb(111, 111, 194);
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.HeaderLine
+{
+    color: rgb(0, 0, 0);
+    position: relative; bottom: 40px;
+}
+
+.LoginPage
+{
+    position: relative; top: 100px;
+    margin: 50px auto;
+    height: 460px;
+    max-width: 500px;
+    border: 1px ridge;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-style: inherit;
+    position: relative; bottom: 20px;
+}
+
+form
+{
+    margin: 10px 20px;
+    position: relative; top: 90px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+input[type=text],input[type=password]
+{
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px;
+    border: 2px ridge;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: relative; bottom: 60px;
+}
+
+.wiproLogoImg
+{
+    position: relative; bottom: 80px; 
+    align-self: center;
+}
+
+.forgotPass
+{
+    font-style: inherit;
+    text-decoration: none;
+    color: rgb(125, 125, 209);
+}
+
+.Submit
+{
+    font-family: inherit;
+    background-color: rgb(93, 93, 198);
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 14px;
+    position: relative; bottom: 65px;
+}
+
+button:hover
+{    
+    animation-delay: 900ms;
+    background-color: rgb(79, 79, 183);
+}
+
+.forgotPass
+{
+    position: relative; bottom: 65px;
+}
+
+a
+{
+    color: rgb(100, 100, 175);
+    font-style: inherit;
+    font-size: 14px;
+}
+
+.SignUpNow
+{
+    position: relative; bottom: 60px;
+    font-family: inherit;
+    font-style: normal;
+}
